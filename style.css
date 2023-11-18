@@ -908,12 +908,13 @@ nav{
     width: 100%;
     height: 120px;
     display: flex;
-    padding: 0% 10%;
+    padding: 0% 5%;
     align-items: center;
 }
 #nav-links{
     width: max-content;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    width: max-content;
 
 }
 .nav-text{
@@ -956,7 +957,7 @@ main{
   } */
 
 #two{
-    width: max-content;
+    width: min-content;
     color: #fff;
     background-color: transparent;
     border: none;
@@ -994,7 +995,9 @@ h2{
 }
 h3{
     font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 500;
+
 }
 h4{
     color: #696969;
@@ -1097,13 +1100,13 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 22rem;
+    width: 100%;
     height: auto;
 }
 
 .bottom{
-    width: 22rem;
-    margin: auto;
+    width: 100%;
+    margin: 0% 0%;
 }
 .internships{
     width: 100%;
@@ -1234,6 +1237,7 @@ a{
 
     #bottom{
         font-size: 1.5rem;
+        line-height: 2rem;
         color: #696969;
     }
 
